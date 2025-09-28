@@ -5,46 +5,46 @@ document.addEventListener('DOMContentLoaded', () => {
             name: 'Italian',
             cover: 'https://images.unsplash.com/photo-1551183053-bf91a1d81141?q=80&w=800&auto=format&fit=crop',
             dishes: [
-                { id: 101, name: 'Margherita Pizza', image:'images/Margherita Pizza.jpeg', description: 'Classic simplicity with fresh mozzarella and basil.' },
-                { id: 102, name: 'Spaghetti Carbonara', image: 'images/Spaghetti Carbonara.jpg', description: 'Creamy pasta with eggs, cheese, and pancetta.' },
-                { id: 103, name: 'Lasagna', image:'images/Lasagna.jpg', description: 'Layers of pasta, meat sauce, and cheese.' },
-                { id: 104, name: 'Mushroom Risotto', image:'images/Mushroom Risotto.jpg', description: 'Creamy rice cooked in broth.' },
-                { id: 105, name: 'Tiramisu', image: 'images/Tiramisu.jpg', description: 'Coffee-flavored dessert with mascarpone.' },
-                { id: 106, name: 'Bruschetta', image: 'images/Bruschetta.jpg', description: 'Grilled bread with garlic and tomatoes.' },
-                { id: 107, name: 'Ravioli', image: 'images/Ravioli.jpg', description: 'Stuffed pasta with ricotta and spinach.' },
-                { id: 108, name: 'Pesto Pasta', image: 'images/Pesto Pasta.jpg', description: 'Pasta with fresh basil and pine nuts.' },
-                { id: 109, name: 'Focaccia', image: 'images/Focaccia.jpg', description: 'Oven-baked flatbread with herbs.' },
-                { id: 110, name: 'Gnocchi', image: 'images/Gnocchi.jpg', description: 'Soft potato dumplings.' },
+                { id: 101, name: 'Margherita Pizza', image:'Margherita Pizza.jpeg', description: 'Classic simplicity with fresh mozzarella and basil.' },
+                { id: 102, name: 'Spaghetti Carbonara', image: 'Spaghetti Carbonara.jpg', description: 'Creamy pasta with eggs, cheese, and pancetta.' },
+                { id: 103, name: 'Lasagna', image:'Lasagna.jpg', description: 'Layers of pasta, meat sauce, and cheese.' },
+                { id: 104, name: 'Mushroom Risotto', image:'Mushroom Risotto.jpg', description: 'Creamy rice cooked in broth.' },
+                { id: 105, name: 'Tiramisu', image: 'Tiramisu.jpg', description: 'Coffee-flavored dessert with mascarpone.' },
+                { id: 106, name: 'Bruschetta', image: 'Bruschetta.jpg', description: 'Grilled bread with garlic and tomatoes.' },
+                { id: 107, name: 'Ravioli', image: 'Ravioli.jpg', description: 'Stuffed pasta with ricotta and spinach.' },
+                { id: 108, name: 'Pesto Pasta', image: 'Pesto Pasta.jpg', description: 'Pasta with fresh basil and pine nuts.' },
+                { id: 109, name: 'Focaccia', image: 'Focaccia.jpg', description: 'Oven-baked flatbread with herbs.' },
+                { id: 110, name: 'Gnocchi', image: 'Gnocchi.jpg', description: 'Soft potato dumplings.' },
             ]
         },
         mexican: {
             name: 'Mexican',
-            cover: 'images/Mexican.jpeg',
+            cover: 'Mexican.jpeg',
             dishes: [
-                { id: 201, name: 'Tacos al Pastor', image: 'images/Tacos al Pastor.jpeg', description: 'Spit-grilled pork with pineapple.' },
-                { id: 202, name: 'Guacamole & Chips', image: 'images/Guacamole & Chips.jpeg', description: 'Avocado dip with lime and cilantro.' },
-                { id: 203, name: 'Enchiladas', image: 'images/Enchiladas.jpeg', description: 'Corn tortillas with chili sauce and cheese.' },
-                { id: 204, name: 'Quesadillas', image: 'images/Quesadillas.jpeg', description: 'Toasted tortilla with melted cheese.' },
-                { id: 205, name: 'Churros', image: 'images/Churros.jpeg', description: 'Fried dough pastry with cinnamon sugar.' },
-                { id: 206, name: 'Burrito Bowl', image:'images/Burrito Bowl.jpeg', description: 'Rice, beans, and your favorite toppings.' },
-                { id: 207, name: 'Elote', image: 'images/Elote.jpeg', description: 'Grilled street corn with cotija cheese.' },
-                { id: 208, name: 'Tamales', image: 'images/Tamales.jpg', description: 'Steamed masa with savory fillings.' },
-                { id: 209, name: 'Ceviche', image: 'images/Ceviche.jpeg', description: 'Fresh seafood cured in citrus juices.' },
-                { id: 210, name: 'Huevos Rancheros', image: 'images/Huevos Rancheros.jpg', description: 'Fried eggs on tortillas with salsa.' },
+                { id: 201, name: 'Tacos al Pastor', image: 'Tacos al Pastor.jpeg', description: 'Spit-grilled pork with pineapple.' },
+                { id: 202, name: 'Guacamole & Chips', image: 'Guacamole & Chips.jpeg', description: 'Avocado dip with lime and cilantro.' },
+                { id: 203, name: 'Enchiladas', image: 'Enchiladas.jpeg', description: 'Corn tortillas with chili sauce and cheese.' },
+                { id: 204, name: 'Quesadillas', image: 'Quesadillas.jpeg', description: 'Toasted tortilla with melted cheese.' },
+                { id: 205, name: 'Churros', image: 'Churros.jpeg', description: 'Fried dough pastry with cinnamon sugar.' },
+                { id: 206, name: 'Burrito Bowl', image:'Burrito Bowl.jpeg', description: 'Rice, beans, and your favorite toppings.' },
+                { id: 207, name: 'Elote', image: 'Elote.jpeg', description: 'Grilled street corn with cotija cheese.' },
+                { id: 208, name: 'Tamales', image: 'Tamales.jpg', description: 'Steamed masa with savory fillings.' },
+                { id: 209, name: 'Ceviche', image: 'Ceviche.jpeg', description: 'Fresh seafood cured in citrus juices.' },
+                { id: 210, name: 'Huevos Rancheros', image: 'Huevos Rancheros.jpg', description: 'Fried eggs on tortillas with salsa.' },
             ]
         },
         
         indian: {
             name: 'Indian',
-            cover: 'images/Indian.jpeg',
+            cover: 'Indian.jpeg',
             dishes: [
-                { id: 301, name: 'Butter Chicken', image:'images/Butter Chicken.jpg' , description: 'Spit-grilled pork with pineapple.' },
-                { id: 302, name: 'Paneer Tikka', image: 'images/Paneer Tikka.jpeg', description: 'Avocado dip with lime and cilantro.' },
-                { id: 303, name: 'Chole Bhature', image:'images/Chole Bhature.jpeg' , description: 'Corn tortillas with chili sauce and cheese.' },
-                { id: 304, name: 'Biryani', image:'images/Biryani.jpg', description: 'Fried dough pastry with cinnamon sugar.' },
-                { id: 305, name: 'Dal Makhani', image: 'images/Dal Makhani.jpsg', description: 'Grilled street corn with cotija cheese.' },
-                { id: 306, name: 'Naan', image: 'images/Naan.jpg', description: 'Steamed masa with savory fillings.' },
-                { id: 307, name: 'Dhokla', image:'images/Dhokla.jpg', description: 'Fresh seafood cured in citrus juices.' },
+                { id: 301, name: 'Butter Chicken', image:'Butter Chicken.jpg' , description: 'Spit-grilled pork with pineapple.' },
+                { id: 302, name: 'Paneer Tikka', image: 'Paneer Tikka.jpeg', description: 'Avocado dip with lime and cilantro.' },
+                { id: 303, name: 'Chole Bhature', image:'Chole Bhature.jpeg' , description: 'Corn tortillas with chili sauce and cheese.' },
+                { id: 304, name: 'Biryani', image:'Biryani.jpg', description: 'Fried dough pastry with cinnamon sugar.' },
+                { id: 305, name: 'Dal Makhani', image: 'Dal Makhani.jpsg', description: 'Grilled street corn with cotija cheese.' },
+                { id: 306, name: 'Naan', image: 'Naan.jpg', description: 'Steamed masa with savory fillings.' },
+                { id: 307, name: 'Dhokla', image:'Dhokla.jpg', description: 'Fresh seafood cured in citrus juices.' },
                 
             ]
         },
@@ -355,3 +355,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
     init();
 });
+
